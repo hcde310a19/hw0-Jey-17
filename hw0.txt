@@ -1,3 +1,69 @@
 # Description of your program (part 7)
 
+To count the number of words in a document, the program must open and stay
+on the document as it runs through all of the steps. Assuming that all of
+the words are readable and not picture of words, these steps should result
+in the correct number of words. This should also count the words regardless without
+being case sensitive and the word can be incorrectly spelled or made up. 
+
+------------------------------------------------------------------------------------------------
+Definitions 
+
+Letters: a-b and A-B
+Characters: .,>-_=+, 1-9, etc.
+Words: Any combination of letters and characters, or just letters by
+	themselves, but does not include combinations only including characters.
+
+------------------------------------------------------------------------------------------------
+Instructions
+
+Step 1: Create a variable that is initially equal to zero (0) at the start of the count.
+	Its purpose is to keep track of the number of words the program has gone through
+	as it continuous to count.
+
+Step 2: Starting from the top left of the document, the program will run
+	through the strings and will follow the Western reading convention of starting
+	from the top left going to the top right, then keep going down one line until the
+	bottom right of the document is reached and there are no more letters in the 
+	document that the program has no read over. 
+
+Step 3: If a space and/or indentation is found after a word, add one (1) to the
+	counter variable. If there is no more letters on the current line and the letters
+	are not attached to the letters in the line below it, add one (1) to the counter.
+	Do not add one (1) to the counter. Counter variable will not reset to zero (0),
+	but will continuously go up as the program runs finds more words. 
+
+Step 4: Repeat step 3 until there are no more letters in the document. 
+
+Step 5: Show/print the number that the counter variable is equal to. 
+
+------------------------------------------------------------------------------------------------
+
 # Reflection on writing your program (part 8)
+
+Writing the program was trickier than expected. At first, I was afraid that my instructions
+were going to be too simple and I would not have enough to write to make it look like I tried
+on the assignment. However, by anticipating that the person whom I am giving the instructions
+to is going to try and purposely misinterpret my instructions - I was able to write a lot more.
+I also felt the need to define some key words, such as, letters, characters, and words because
+they are very important in this case and I wanted to ensure that the person reading the
+instructions will have the same definition of them as I do. 
+
+It was very satisfying to be able to think about the process in a tangible way. Instead of a
+document, I was able to think of a physical sheet of paper with words and I had to highlight
+every word in the document while also keeping count. 
+
+It was frustrating in that this is supposed to be a simple task. This can easily get unmanageable
+if the program was executed by a person because it is such a repetitive task. It is also
+frustrating because I know that there are one-worded commands that we can just call in a program 
+to accomplish all of the steps in part 7. 
+
+What I want to get out of this course is a more tangible and applicable coding language. I want
+To be able to work on a project that I am proud of as opposed to working on challenging homework
+That build up to nothing. I look forward to doing that in this class because of that and also
+Because I keep hearing positive things about this class from past students. I am also glad that
+The language is not as nit-picky about formatting and syntax.
+
+------------------------------------------------------------------------------------------------
+
+
